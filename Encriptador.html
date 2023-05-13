@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+    
+<head> 
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="propiedades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="Logo.jpg" class="logo" alt="logo">
+    </header>
+
+    <main>
+
+        <section>
+
+            <textarea class="textoencriptado" cols="50" rows="10" placeholder="Ingrese el texto"></textarea>
+
+            <div>
+                <h6 class="informacion">solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <div class="botones">
+                <button class="btnencriptar" onclick="b_Encriptar()">ENCRIPTAR</button>
+                <button class="btndesencriptar" onclick="b_Desencriptar()">DESENCRIPTAR</button>
+                
+            </div>
+            
+        </section>
+
+        <section>
+
+            <textarea class="textodesencriptado" cols="50" rows="15"></textarea>
+           
+            <div class="btncopiar">
+                <button class="copiar" onclick="copiarPegar()">COPIAR</button>
+            </div>
+            
+        </section>
+    
+    </main>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+<footer> 
+    <p class="copyright">&copy Copyright Pamela Ercole - 2023 </p>
+</footer>
+
+
+
+
+
+</html>
